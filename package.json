@@ -1,0 +1,27 @@
+{
+  "name": "reduxtoolkit-wrapper",
+  "version": "1.0.0",
+  "description": "Wrapper for createAsyncThunk to pass axios instance with auth token. And custom useFetch hook (if you don't have to use RTK slice)",
+  "main": "index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R1ON/ReduxToolKit-wrapper.git"
+  },
+  "author": "R1ON",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R1ON/ReduxToolKit-wrapper/issues"
+  },
+  "homepage": "https://github.com/R1ON/ReduxToolKit-wrapper#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "1.8.2",
+    "@types/node": "18.6.1",
+    "@types/react": "17.0.40",
+    "axios": "0.27.2",
+    "react": "17.0.2",
+    "typescript": "4.5.5"
+  },
+  "devDependencies": {
+    "ts-node": "10.9.1"
+  }
+}
